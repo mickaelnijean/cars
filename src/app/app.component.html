@@ -296,6 +296,8 @@
     />
     <span>Arval Interview</span>
     <div class="spacer"></div>
+    <app-button *ngFor="let user of userStore.getAllUser()" link="{{'/user/' + user.name}}" [username]="user.name" (click)="updateCurrentUser(user)"></app-button>
+    {{(userStore.currentUser | async)?.name}}
 
 </div>
 

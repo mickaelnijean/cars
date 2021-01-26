@@ -7,7 +7,7 @@ export interface Car {
 }
 
 export enum Motor {
-    ELECTRIC,
-    DIESEL,
-    PETROL,
+    ELECTRIC = 'ELECTRIC',
+    DIESEL = 'DIESEL',
+    PETROL = 'PETROL',
 }

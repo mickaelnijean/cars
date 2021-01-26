@@ -14,19 +14,15 @@ export class UserRepositoryService {
     return of([
       {
         name: 'Pierre',
-        preferences: [
-          {
+        preferences: {
             motor: Motor.DIESEL,
           }
-        ]
       }, {
         name: 'Paul',
-        preferences: [
-          {
+        preferences: {
             color: 'blue',
             motor: Motor.ELECTRIC
           }
-        ]
       }, {
         name: 'Jacques',
       }

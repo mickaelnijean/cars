@@ -2,7 +2,7 @@ import { Motor } from './car.model';
 
 export interface User {
     name: string;
-    preferences?: Preference[];
+    preferences?: Preference;
 }
 
 export interface Preference {
