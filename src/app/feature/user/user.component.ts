@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Car } from 'src/app/shared/model/car.model';
-import { Preference, User } from 'src/app/shared/model/user.model';
-import { CarService } from 'src/app/shared/services/store/car.service';
-import { UserService } from 'src/app/shared/services/store/user.service';
+import { Car } from '@shared/model/car.model';
+import { Preference, User } from '@shared/model/user.model';
+import { CarService } from '@shared/services/store/car.service';
+import { UserService } from '@shared/services/store/user.service';
 
 @Component({
   selector: 'app-user',
